@@ -134,3 +134,26 @@ footer {
 #instagram:hover {
 	background-image: url(../img/sociales/instagramP.svg);
 }
+
+#centrar_promo {
+	width: 480px;
+	height: 165px;
+	float: right;
+	margin: 115px 140px 120px 750px;
+	
+}
+
+#centrar_promo h2 {
+	color:#A1C133;
+	font-size: 40px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 200;
+	padding-bottom: 40px;
+}
+
+#centrar_promo h3 {
+	color: black;
+	font-size: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 200;
+}
