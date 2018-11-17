@@ -149,10 +149,11 @@ footer {
 	position: absolute;
 	top: 113px;
 	left: 612px;
+	text-align: right;
 }
 
 
-#centrar_promo h2 {
+#txtPromo h2 {
 	color:#A1C133;
 	font-size: 40px;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
@@ -166,3 +167,18 @@ footer {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-weight: 200;
 }
+
+#boxMapa {
+	width: 720px;
+	height: 285px;
+	background-color: #A1C133;
+	position: absolute;
+	top: 112px;
+	left: 236px;
+}
+
+#ubicacion {
+	margin: -80px 0 0 22px;
+	box-shadow: 0 5px 7px rgba(0,0,0,0.5);
+}
+
