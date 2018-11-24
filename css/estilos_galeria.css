@@ -39,7 +39,7 @@ h2.titulos {
 }
 
 #descripcion h3 {
-	font-size: 40px;
+	font-size: 32px;
 	color: #D0E542;
 	font-weight: 200;
 	
@@ -48,10 +48,11 @@ h2.titulos {
 #descripcion p {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	color: white;
-	font-size: 16px;
+	font-size: 12px;
 	font-weight: 100;
 	padding-top: 25px;
 	line-height: 22px;
+	letter-spacing: 1px;
 }
 
 #miniaturas img {
