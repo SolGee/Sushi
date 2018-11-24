@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#contenidos {
+	height: 830px;
+}
+
+#boxAcordeon {
+	width: 560px;
+	height: 560px;
+	position: absolute;
+	top:148px;
+	left: 12px;
+	background-color: antiquewhite;
+}
+
+#boxTabs {
+	width: 480px;
+	height: 560px;
+	position: absolute;
+	top: 148px;
+	left: 714px;
+	background-color: antiquewhite;
+}
