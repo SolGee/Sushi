@@ -183,6 +183,9 @@ footer {
 }
 
 
+/* FOOTER */
+
+
 footer {
 	color: white;
 	text-decoration: none;
@@ -256,11 +259,22 @@ h5, h6 {
 	border-radius: 5px 0 0 5px;
 	border: solid 1px white;
 	background-color: transparent;
+	color: white;
+	padding-left: 10px;
 }
+
+
+/* Estiliza el placeholder en varios navegadores*/
+
+::-webkit-input-placeholder {color: white; font-weight: 100;}
+::-moz-input-placeholder {color: white; font-weight: 100;}
+::-ms-input-placeholder {color: white; font-weight: 100;}
+input-placeholder {color: white; font-weight: 100;}
+
 
 .footerB button {
 	width: 50px;
-	height: 33px;
+	height: 32px;
 	background-color: white;
 	border-radius: 0 5px 5px 0;
 	color: #2699FB;
