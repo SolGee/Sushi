@@ -14,6 +14,13 @@
 
 ---------------------------------------->
 	<link rel="stylesheet" href="css/estilos_servcios.css">
+	<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+	<link href="jQueryAssets/jquery-ui.theme.min.css" rel="stylesheet" type="text/css">
+	<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+	<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
 <!-- InstanceEndEditable -->
 </head>
 
@@ -52,8 +59,72 @@
 		<div id="centrar_contenidos">
 			<!-- InstanceBeginEditable name="Contenidos" -->
 			<h2 class="titulos">NUESTROS SERVICIOS</h2>
-			<div id="boxAcordeon"></div>
-			<div id="boxTabs"></div>
+			<div id="boxAcordeon">
+			  <div id="Accordion1">
+				  <h3><a href="#">Temaki Cangrejo</a></h3>
+				  <div>
+					<img src="galeria/big1.jpg" alt="">
+					<h4>Excepteur sint occaecat cupidatat no</h4>
+					<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nam quidem accusamus voluptatem enim nemo provident omnis labore, deleniti? Labore repellat quia, enim repudiandae consequuntur accusantium velit consequatur voluptate officiis distinctio a atque at natus sed provident assumenda quaerat ipsa voluptatibus. Amet numquam provident nisi quasi eos error? Cupiditate, quo voluptas? Atque enim debitis hic aliquid aut, necessitatibus quae obcaecati beatae ut, veniam labore exercitationem adipisci velit amet possimus sed, aliquam. Nesciunt saepe rerum commodi est atque neque pariatur vel deserunt dolores sed, facere harum repudiandae dolore, assumenda a iure repellat! Mollitia debitis, optio. Rem, totam animi aliquam harum officiis?</p>
+			     </div>
+				  <h3><a href="#">Temaki Cangrejo</a></h3>
+				  <div>
+					<img src="galeria/big2.jpg" alt="">
+					<h4>Excepteur sint occaecat cupidatat no</h4>
+					<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione </p>
+			     </div>
+				  <h3><a href="#">Temaki Cangrejo</a></h3>
+				  <div>
+				    <img src="galeria/big3.jpg" alt="">
+					<h4>Excepteur sint occaecat cupidatat no</h4>
+					<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione </p>
+			     </div>	  
+				 <h3><a href="#">Temaki Cangrejo</a></h3>
+				 <div>
+				    <img src="galeria/big4.jpg" alt="">
+					<h4>Excepteur sint occaecat cupidatat no</h4>
+					<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione </p>
+			     </div>
+			  </div>
+            </div>
+			<div id="boxTabs">
+			  <div id="Tabs1">
+				  <ul>
+				    <li><a href="#tabs-1">Paquete 1</a></li>
+				    <li><a href="#tabs-2">Paquete 2</a></li>
+				    <li><a href="#tabs-3">Paquete 3</a></li>
+			    </ul>
+				  <div id="tabs-1">
+				    <img src="galeria/mini1.jpg" width="75%" alt="">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum vitae inventore tempore facilis ab ullam tempora, similique adipisci nam optio, illum accusamus fugit impedit! Sequi delectus beatae rem ullam sit ipsam, minima natus! Sed ab, accusamus alias, possimus earum ipsa illo repellat excepturi aliquid ratione praesentium. Explicabo ex eos, saepe.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum vitae inventore tempore facilis ab ullam tempora, similique adipisci nam optio, illum accusamus fugit impedit! Sequi delectus beatae rem ullam sit ipsam, minima natus! Sed ab, accusamus alias, possimus earum ipsa illo repellat excepturi aliquid ratione praesentium. Explicabo ex eos, saepe.</p>
+			    </div>
+				  <div id="tabs-2">
+				    <p>Content 2</p>
+			    </div>
+				  <div id="tabs-3">
+				    <p>Content 3</p>
+			    </div>
+			  </div>
+            </div>
+			<script type="text/javascript">
+$(function() {
+	$( "#Accordion1" ).accordion({
+		active:8,
+		collapsible:true,
+		heightStyle:"fill",
+		animate:{easing: "easeOutCirc"},
+		icons:{activeHeader: "ui-icon-minus", header: "ui-icon-plus"}
+	}); 
+});
+$(function() {
+	$( "#Tabs1" ).tabs({
+		heightStyle:"fill",
+		hide:{effect: "fade"},
+		show:{effect: "slide"}
+	}); 
+});
+            </script>
 			<!-- InstanceEndEditable -->
 		</div>
 	</section>
